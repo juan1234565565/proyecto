@@ -29,4 +29,5 @@ urlpatterns = [
     path('perfil/', views.perfil, name='perfil'),
     path('modulos/', views.modulos, name='modulos'),
     path('modulo1/', views.modulo1, name='modulo1'),
+    path('modulo2/', views.modulo2, name='modulo2'),
 ]

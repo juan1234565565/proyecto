@@ -29,3 +29,5 @@ def modulo1(request):
 def pruebaMod1(request):
     return render(request, 'Cuestionarios/pruebaMod1.html')
 
+def modulo2(request):
+    return render(request, 'Modulo/modulo2.hmtl')
