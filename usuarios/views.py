@@ -26,8 +26,23 @@ def modulos(request):
 def modulo1(request):
     return render(request, 'Modulo/modulo1.html')
 
-def pruebaMod1(request):
-    return render(request, 'Cuestionarios/pruebaMod1.html')
 
 def modulo2(request):
-    return render(request, 'Modulo/modulo2.hmtl')
+    return render(request, 'Modulo/modulo2.html')
+
+def modulo3(request):
+    return render(request, 'Modulo/modulo3.html')
+
+def modulo4(request):
+    return render(request, 'Modulo/modulo4.html')
+
+def modulo5(request):
+    return render(request, 'Modulo/modulo5.html')
+
+def modulo6(request):
+    return render(request, 'Modulo/modulo6.html')
+
+def modulo7(request):
+    return render(request, 'Modulo/modulo7.html')
+
+

@@ -30,4 +30,10 @@ urlpatterns = [
     path('modulos/', views.modulos, name='modulos'),
     path('modulo1/', views.modulo1, name='modulo1'),
     path('modulo2/', views.modulo2, name='modulo2'),
+    path('modulo3/', views.modulo3, name='modulo3'),
+    path('modulo4/', views.modulo4, name='modulo4'),
+    path('modulo5/', views.modulo5, name='modulo5'),
+    path('modulo6/', views.modulo6, name='modulo6'),
+    path('modulo7/', views.modulo7, name='modulo7'),
+
 ]
