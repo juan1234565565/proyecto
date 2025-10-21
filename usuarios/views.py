@@ -46,3 +46,5 @@ def modulo7(request):
     return render(request, 'Modulo/modulo7.html')
 
 
+
+

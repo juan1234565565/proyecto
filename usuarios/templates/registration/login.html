@@ -341,8 +341,8 @@
         </div>
 
         <form method="post" action="{% url 'login' %}" id="loginForm">
-            {% csrf_token %}
-            <input type="hidden" name="next" value="{% url 'perfil' %}">
+    {% csrf_token %}
+    <input type="hidden" name="next" value="/perfil/">
 
             <div class="form-group">
                 <label for="id_username">Usuario</label>
@@ -368,7 +368,7 @@
             </button>
 
             <div class="links">
-                <a href="/recuperar-contraseña/">¿Olvidaste tu contraseña?</a>
+                <a href="{% url 'password_reset' %}">¿Olvidaste tu contraseña?</a>
                 <span style="color: var(--text-secondary);">Acceso seguro</span>
             </div>
 
